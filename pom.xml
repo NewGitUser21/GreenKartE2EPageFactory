@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>TestNGPractice</groupId>
-  <artifactId>E2ETesting</artifactId>
+  <groupId>TestNG</groupId>
+  <artifactId>GreenKartE2E</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>E2ETesting</name>
+  <name>GreenKartE2E</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -63,15 +63,7 @@
   <version>5.0.4</version>
 </dependency>
 
-<!-- java.lang.illegalaccesserror class lombok.javac.apt.lombokprocessor - START -->
-<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.22</version>
-    <scope>provided</scope>
-</dependency>
-<!-- java.lang.illegalaccesserror class lombok.javac.apt.lombokprocessor - END -->
+
 
   </dependencies>
 
@@ -85,27 +77,23 @@
          </resource>
        </resources>
 
+
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-
-<!-- [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project E2ETesting: Fatal error compiling -->
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
-        <plugin> 
-         <artifactId>maven-clean-plugin</artifactId> 
-         <version>3.1.0</version>
-        </plugin> 
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
         <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-<!-- [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project E2ETesting: Fatal error compiling -->        
-        <plugin> 
-  		<groupId>org.apache.maven.plugins</groupId> 
-  		<artifactId>maven-compiler-plugin</artifactId>
-  		<version>3.8.1</version>
-
-
+        <plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-compiler-plugin</artifactId>
+  			<version>3.8.1</version>
   		</plugin>
         <plugin>
   			<groupId>org.apache.maven.plugins</groupId>

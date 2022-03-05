@@ -1,4 +1,4 @@
-20:10:53.971 [TestNG] INFO  TestNGPractice.E2ETesting.base - Navigated to Home Page
-20:10:54.077 [TestNG] INFO  TestNGPractice.E2ETesting.base - Successfully validated text message
-20:10:54.338 [TestNG] INFO  TestNGPractice.E2ETesting.base - Navigate Bar is displayed
-20:11:08.054 [TestNG] INFO  TestNGPractice.E2ETesting.base - User Login with Invalid credentials
+18:18:40.857 [TestNG] INFO  TestNG.GreenKartE2E.base - Order is now placed successfully
+18:18:40.978 [TestNG] INFO  TestNG.GreenKartE2E.base - Country code is selected as 'INDIA'
+18:18:41.081 [TestNG] INFO  TestNG.GreenKartE2E.base - Agreement selected
+18:18:41.174 [TestNG] INFO  TestNG.GreenKartE2E.base - Order is placed successfully - Now user redirected back to Home Page
