@@ -1,4 +1,6 @@
-18:18:40.857 [TestNG] INFO  TestNG.GreenKartE2E.base - Order is now placed successfully
-18:18:40.978 [TestNG] INFO  TestNG.GreenKartE2E.base - Country code is selected as 'INDIA'
-18:18:41.081 [TestNG] INFO  TestNG.GreenKartE2E.base - Agreement selected
-18:18:41.174 [TestNG] INFO  TestNG.GreenKartE2E.base - Order is placed successfully - Now user redirected back to Home Page
+19:34:47.577 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Vegetables in Cart are now checked-out
+19:34:48.413 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Coupon code is applied
+19:34:48.539 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Order is now placed successfully
+19:34:48.654 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Country code is selected as 'INDIA'
+19:34:48.747 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Agreement selected
+19:34:48.852 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Order is placed successfully - Now user redirected back to Home Page

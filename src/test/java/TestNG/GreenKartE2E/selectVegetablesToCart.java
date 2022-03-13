@@ -18,19 +18,20 @@ import org.testng.Reporter;
  * @author DELL
  *
  */
-public class selectVegetablesToCart {
+public class selectVegetablesToCart extends pageFactoryGreenKart {
 	
+	public selectVegetablesToCart(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+
+
 	public static WebDriver driver;
 
 
 	public static Logger log = LogManager.getLogger(base.class.getName());
 	
-	@SuppressWarnings("static-access")
-	public selectVegetablesToCart(WebDriver driver) {
-		// TODO Auto-generated constructor stub
-		this.driver=driver;
-	}
-
+	
 
 	//@Test
 	public void addVegetablesToCart(WebDriver driver) throws IOException
@@ -48,7 +49,7 @@ public class selectVegetablesToCart {
     	String[] itemsNeeded = {"Cauliflower", "Brocolli", "Tomato", "Brinjal"}; //Adding array of string variables
     	int j = 0; //to check for 2 iteration based upon string array
     	
-    	List<WebElement> products =driver.findElements(By.cssSelector("h4.product-name"));
+    	List<WebElement> products = productName();
     	
     	//@SuppressWarnings("unchecked")
 		//List<WebElement> products =(List<WebElement>) pf.selectProductCategory();
@@ -70,7 +71,7 @@ public class selectVegetablesToCart {
     			//driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click(); 
     			//driver clicks on wrong item because text() is static xpath which clicks on dynamic web element
     			
-    			driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click(); 
+    			selectProductFromList().get(i).click(); 
     			//this shall select correct items
     			
     			//I know here the select item problem ***********/////

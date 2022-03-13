@@ -3,6 +3,8 @@
  */
 package TestNG.GreenKartE2E;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,6 +23,11 @@ public class pageFactoryGreenKart {
 	 * 
 	 * By addVegtables = By.xpath("//div[@class='product-action']/button");
 	 */
+	
+	
+	By productName = By.cssSelector("h4.product-name");
+	
+	By selectProductFromList = By.xpath("//div[@class='product-action']/button");
 	
 	By imgCart = By.cssSelector("img[alt='Cart']");
 	
@@ -56,6 +63,18 @@ public class pageFactoryGreenKart {
 	 * 
 	 * return driver.findElement(addVegtables); }
 	 */
+	
+	public List<WebElement> productName() 
+	{
+		
+		return driver.findElements(productName);	
+	}
+	
+	public List<WebElement> selectProductFromList() 
+	{
+		
+		return driver.findElements(productName);	
+	}
 	
 	public WebElement selectCart() 
 	{
