@@ -1,5 +1,5 @@
-19:34:41.144 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-19:34:41.387 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x113044cf56f90007
-19:34:41.682 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Driver is initialized
-19:34:46.028 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Navigated to Home Page
-19:34:47.361 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Selected vegetables are added to Cart
+19:42:46.086 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+19:42:50.109 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x9d604811e5be1f18
+19:42:51.193 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Driver is initialized
+19:42:56.389 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Navigated to Home Page
+19:42:57.338 [TestNG-tests-1] INFO  TestNG.GreenKartE2E.base - Selected vegetables are added to Cart
